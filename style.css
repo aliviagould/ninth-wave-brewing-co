@@ -1,0 +1,211 @@
+html, body {
+    font-family: Open Sans, sans-serif;
+    font-weight: 300;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: Oswald, sans-serif;
+    /* font-weight: 700; */
+}
+
+h1, h3 {
+    letter-spacing: 5px;
+    font-weight: 700;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+.padding-left {
+    padding-left: 10vw;
+}
+
+.padding-right {
+    padding-right: 10vw;
+}
+
+.margin-left {
+    margin-left: 10vw;
+}
+
+.margin-right {
+    margin-right: 10vw;
+}
+
+.spacing-normal {
+    letter-spacing: normal;
+}
+
+/* .btn {
+    border-radius: 10px;
+    background-color: black;
+    font-family: Oswald, sans-serif;
+    text-transform: uppercase;
+} */
+
+/* NAVBAR */
+
+.navbar{
+    font-family: Oswald, sans-serif;
+}
+
+.navbar a {
+    text-transform: uppercase;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+
+
+/* HERO */
+
+#hero-text {
+    margin-top: 0;
+}
+
+#hero-text h1 {
+    margin-left: -3px;
+    font-size: 2rem;
+    margin-top: -100px;
+}
+
+#hand-holding-beer {
+    width: 90%;
+}
+
+
+/* ABOUT */
+
+#wave {
+    width: 90%;
+}
+
+#about {
+    text-align: left;
+    padding-left: 10vw;
+    padding-right: 10vw;
+}
+
+#about-text {
+    
+}
+
+
+/* TAPROOM */
+
+.xs-negative {
+    margin-left: -.75rem;
+}
+
+.minus {
+    
+    /* margin-left: -.45rem; */
+}
+
+#flight {
+    width: 80%;
+}
+
+
+/* BEER */
+
+.beer {
+    margin-top: 100px;
+}
+
+.beer-image {
+    width: 80vw;
+    height: 80vw;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.beer-1 {
+    background-image: url("img/palm-color.svg");
+}
+
+.beer-2 {
+    background-image: url("img/waves-color.svg");
+}
+
+.beer-3 {
+    background-image: url("img/seaweed-color.svg");
+}
+
+.beer-label {
+    background-color: white;
+    border: 2px solid black;
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    padding: 10px;
+    margin-top: 40vw;
+    top: -25px;
+}
+
+.beer-type {
+    display: flex;
+    justify-content: space-between;
+    width: 80vw;
+    font-size: 4rem;
+}
+
+.beer-description {
+    width: 80vw;
+    font-size: .8rem;
+}
+
+.beer-type h5 {
+    margin: 0;
+    margin-bottom: .5rem;
+    padding-top: 5px;
+    font-size: 1rem;
+}
+
+
+/* CONTACT */
+
+
+
+.contact {
+    padding-left: 10vw;
+}
+
+
+
+
+/* FOOTER */
+
+footer {
+    margin-top: 4rem;
+}
+
+.social-icons {
+    background-color: black;
+    padding: 1.5rem;
+    text-align: center;
+}
+
+.social-icons a {
+    color: #ffffff;
+    font-size: 2rem;
+}
+
+.social-icons a:nth-child(1):hover {
+    color:#bc2a8d;
+}
+
+.social-icons a:nth-child(2):hover {
+    color: #6699FF;
+}
+
+.social-icons a:nth-child(3):hover {
+    color:#3b5998;
+}
+
+

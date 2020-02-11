@@ -1,0 +1,136 @@
+/* // Extra small devices (portrait phones, less than 576px) */
+/* // No media query since this is the default in Bootstrap */
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+
+    .padding-right {
+        padding-right: 10vw;
+    }    
+
+    #hero-text {
+        margin-top: 0%;
+    }
+    
+    #hero-text h1 {
+        font-size: 2.5rem;
+        letter-spacing: 5px;
+        margin-top: 0;
+    }
+    
+    #wave {
+        width: 90%;
+    }
+
+    #about {
+        text-align: left;
+    }
+
+    .minus {
+        margin-top: -2.5%;
+        margin-left: -.45rem;
+    }
+
+    #hand-holding-beer {
+        width: 100%;
+    }
+
+    #taproom {
+        margin-top: 120px;
+    }
+
+    .xs-negative {
+        margin-left: 0;
+    }
+    
+
+    .beer-image {
+        width: 20vw;
+        height: 20vw;
+    }
+
+    .beer-type {
+        display: flex;
+        justify-content: space-between;
+        width: 20vw;
+    }
+    
+    .beer-description {
+        width: 20vw;
+        font-size: .8rem;
+    }
+
+    .beer-label {
+        background-color: white;
+        border: 2px solid black;
+        text-align: center;
+        display: inline-block;
+        position: relative;
+        padding: 10px;
+        margin-top: 10vw;
+        top: -25px;
+    }
+
+    .beer-label {
+        font-size: 1rem;
+    }
+
+    .contact {
+        padding-left: 0;
+    }
+
+    #contact {
+        margin-top: 100px;
+    
+    }
+
+
+
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+
+    #hero-text {
+        margin-top: -20%;
+    }
+    
+    #hero-text h1 {
+        font-size: 3rem;
+        margin-left: -3px;
+    }
+
+    #flight {
+        width: 100%;
+    }
+
+    .minus {
+        margin-top: -5%;
+        margin-left: -.45rem;
+    }
+
+    .beer-label {
+        font-size: 1.2rem;
+    }
+
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+
+    #hero-text h1 {
+        font-size: 4rem;
+        margin-left: -3px;
+    }
+
+ }
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+
+    #hero-text h1 {
+        font-size: 5rem;
+        margin-left: -3px;
+    }
+
+ }
